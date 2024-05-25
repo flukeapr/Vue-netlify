@@ -19,7 +19,7 @@ const docId = ref('')
 
   const loadData = async () => {
         const todoRef = collection(db, "Todo");
-        const q = query(todoRef,orderBy('DeadLine','desc'))
+        const q = query(todoRef,orderBy('DeadLine','asc'))
         const data = await getDocs(q);
         const todoList = data.docs.map(doc => ({ id: doc.id, ...doc.data() }));
         todo.value = todoList.filter(item=>item.Status!=="สำเร็จ").concat(todoList.filter(item=>item.Status === "สำเร็จ"));
