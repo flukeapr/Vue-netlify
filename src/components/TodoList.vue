@@ -131,7 +131,6 @@ const updateStatus = async(status)=>{
       <div class="dot brown"></div>
       <div class="dot purple"></div>
       <div class="dot blue2"></div>
-      <div class=' p-10'>
       <div class="p-6 max-w-sm mx-auto  rounded-xl shadow-md flex items-center space-x-2 bg-white">
       <div class="flex-shrink-0">
         <img class="h-12 w-12" src="../assets/logo.svg" alt="ChitChat Logo">
@@ -141,8 +140,10 @@ const updateStatus = async(status)=>{
         <p class="text-gray-500">Let's do it!!</p>
       </div>
     </div>
+      <div class=' p-10'>
+      
   
-    <div class="flex w-full item-center justify-center p-4 ">
+    <div class="flex w-full item-center justify-center  ">
       <label class="input input-bordered w-1/2 max-sm:w-full flex items-center gap-2 border-solid border-2 ">
         <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
