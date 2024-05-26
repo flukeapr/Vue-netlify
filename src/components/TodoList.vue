@@ -131,7 +131,7 @@ const updateStatus = async(status)=>{
       <div class="dot brown"></div>
       <div class="dot purple"></div>
       <div class="dot blue2"></div>
-      <div class="p-6 max-w-sm mx-auto  rounded-xl shadow-md flex items-center space-x-2 bg-white">
+      <div class="p-6 max-w-sm mx-auto max-sm:max-w-xs  rounded-xl shadow-md flex items-center space-x-2 bg-white">
       <div class="flex-shrink-0">
         <img class="h-12 w-12" src="../assets/logo.svg" alt="ChitChat Logo">
       </div>
