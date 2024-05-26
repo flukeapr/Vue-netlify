@@ -167,7 +167,7 @@ const updateStatus = async(status)=>{
       </button> -->
     </div>
   
-    <div class="flex items-center justify-center w-full h-[550px] bg-transparent overflow-y-scroll">
+    <div class="flex items-center justify-center w-full h-full max-sm:h-[400px] bg-transparent overflow-y-scroll">
       <ul class="w-full p-2 h-full">
         <li v-for="item in todo.filter(i =>i.Title && i.Title.toString().includes(search))" :key="item.id">
           
